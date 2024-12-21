@@ -1,0 +1,46 @@
+Version Control System is a tools that help to track changes in code.
+
+GIT:- It is Version Control System
+    It is popular , free and open Source , fast and scalable
+
+It is used to track the history.
+It helps in Collaborate with other
+
+GITHUB: Websites that allows developers to store and manage their code using git
+
+Some basic command for terminal:
+git --version :- it show the current version of git installed in System
+ls :- it show the all file from current directory
+ls -Force :- it show all file including hidden one
+clear :- it is used to clear the terminal
+pwd:- it shoe the current directory
+cd <-name-> :- use to change directory(inner folder)
+
+
+Note:-
+~ :- This symbol shows root directory
+
+Configuring Git:
+git config --global user.name "rohit-0000" // configure user name
+git config --global user.email "rohit20040121@gmail.com" // configure email id
+git config --list // it show all setup whatever we have done
+
+GIT Commands:
+
+git clone <-some link-> //use to cloning repository on local machine
+
+cd .\Learn-GIT\   // it is use to change directory
+
+git status //shows the current state of the working directory and staging area, highlighting changes, staged files, and untracked files.
+        untracked :- new file that git doesn't yet track
+        modified :- changed
+        staged : file ready to commit
+        unmodified :- unchanged
+
+Add AND commit
+add- adds new or changed files in your working directory to git staging area
+    git add <-file name->
+
+commit - it is record of change
+    git commit -m"some message"
+
