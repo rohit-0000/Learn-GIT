@@ -82,7 +82,7 @@ Way 2:
 PULL Command
     git pull origin main //used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 
-Resolving Merge Conflict 
+Resolving Merge Conflict :
 An event that takes place when Git is unable to automatically resolve differences in code
 between two Commit.
 
@@ -101,3 +101,5 @@ case 3:commited changes(for many Commit)
 
 Note:to get commit has use command "git log"
 git log// show all history of commit
+
+Testing for undo
