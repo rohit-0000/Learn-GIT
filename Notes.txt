@@ -28,10 +28,9 @@ git config --list // it show all setup whatever we have done
 GIT Commands:
 
 git clone <-some link-> //use to cloning repository on local machine
-
 cd .\Learn-GIT\   // it is use to change directory
-
 cd .. // use to come out of directory
+mkdir <folder name> // to make new folder
 
 git status //shows the current state of the working directory and staging area, highlighting changes, staged files, and untracked files.
         untracked :- new file that git doesn't yet track
@@ -50,4 +49,32 @@ add- adds new or changed files in your working directory to git staging area
 PUSH Command : upload local repo content to remote repo
     git push origin main
 
+
+File is upload to github which is not intiallised by github
+
 init - use to create new git repository
+git remote add origin <-repo link-> // it use to add repository to origin
+git remote -v  // it use to check added repository
+git branch //it is use to check branch
+git branch -M <-new name-> // it is use to rename branch
+git push -u origin main // This means that future git push commands can be run without specifying the remote and branch i.e we can use only git push
+git commit -m" desc"
+git push
+
+
+Git branches:-
+
+git branch // use to check branch
+git branch -M <new name> //rename branch
+git checkout <-branchName-> // use to switch branch
+git checkout -b <-branchName-> // use to create new branch
+git branch -d <-branchName-> //delete branch
+
+git push origin feature1 // use to push on feature1 branch of github
+
+MERGING CODE:
+Way 1:
+    git diff <-branch name-> // find difference b/w two branch
+    git merge <-branch name-> // it merge other branch with current one
+Way 2:
+    PR:Pull Request tell others about you have pushed to a branch in a repository on github
