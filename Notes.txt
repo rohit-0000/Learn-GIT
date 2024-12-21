@@ -71,3 +71,10 @@ git checkout -b <-branchName-> // use to create new branch
 git branch -d <-branchName-> //delete branch
 
 git push origin feature1 // use to push on feature1 branch of github
+
+MERGING CODE:
+Way 1:
+    git diff <-branch name-> // find difference b/w two branch
+    git merge <-branch name-> // it merge other branch with current one
+Way 2:
+    PR:Pull Request tell others about you have pushed to a branch in a repository on github
