@@ -1,4 +1,5 @@
 # Learn-GIT
 Learning GIT and github
-<br>
-Testing branch feature 1
+
+This is my first Git Repository
+I am in feature1
