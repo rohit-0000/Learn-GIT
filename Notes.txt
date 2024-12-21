@@ -3,34 +3,33 @@ Version Control System is a tools that help to track changes in code.
 GIT:- It is Version Control System
     It is popular , free and open Source , fast and scalable
 
-It is used to track the history.
-It helps in Collaborate with other
+    It is used to track the history.
+    It helps in Collaborate with other
 
 GITHUB: Websites that allows developers to store and manage their code using git
 
 Some basic command for terminal:
-git --version :- it show the current version of git installed in System
-ls :- it show the all file from current directory
-ls -Force :- it show all file including hidden one
-clear :- it is used to clear the terminal
-pwd:- it shoe the current directory
-cd <-name-> :- use to change directory(inner folder)
+    git --version :- it show the current version of git installed in System
+    ls :- it show the all file from current directory
+    ls -Force :- it show all file including hidden one
+    clear :- it is used to clear the terminal
+    pwd:- it shoe the current directory
+    cd <-name-> :- use to change directory(inner folder)
 
 
 Note:-
 ~ :- This symbol shows root directory
 
 Configuring Git:
-git config --global user.name "rohit-0000" // configure user name
-git config --global user.email "rohit20040121@gmail.com" // configure email id
-git config --list // it show all setup whatever we have done
+    git config --global user.name "rohit-0000" // configure user name
+    git config --global user.email "rohit20040121@gmail.com" // configure email id
+    git config --list // it show all setup whatever we have done
 
 GIT Commands:
-
-git clone <-some link-> //use to cloning repository on local machine
-cd .\Learn-GIT\   // it is use to change directory
-cd .. // use to come out of directory
-mkdir <folder name> // to make new folder
+    git clone <-some link-> //use to cloning repository on local machine
+    cd .\Learn-GIT\   // it is use to change directory
+    cd .. // use to come out of directory
+    mkdir <folder name> // to make new folder
 
 git status //shows the current state of the working directory and staging area, highlighting changes, staged files, and untracked files.
         untracked :- new file that git doesn't yet track
@@ -39,9 +38,9 @@ git status //shows the current state of the working directory and staging area, 
         unmodified :- unchanged
 
 Add AND commit
-add- adds new or changed files in your working directory to git staging area
-    git add <-file name->
-    git add . // add all files
+    add- adds new or changed files in your working directory to git staging area
+        git add <-file name->
+        git add . // add all files
 
     commit - it is record of change
         git commit -m"some message"
@@ -51,53 +50,57 @@ PUSH Command : upload local repo content to remote repo
 
 
 File is upload to github which is not intiallised by github
-
-init - use to create new git repository
-git remote add origin <-repo link-> // it use to add repository to origin
-git remote -v  // it use to check added repository
-git branch //it is use to check branch
-git branch -M <-new name-> // it is use to rename branch
-git push -u origin main // This means that future git push commands can be run without specifying the remote and branch i.e we can use only git push
-git commit -m" desc"
-git push
+    init - use to create new git repository
+    git remote add origin <-repo link-> // it use to add repository to origin
+    git remote -v  // it use to check added repository
+    git branch //it is use to check branch
+    git branch -M <-new name-> // it is use to rename branch
+    git push -u origin main // This means that future git push commands can be run without specifying the remote and branch i.e we can use only git push
+    git commit -m" desc"
+    git push
 
 
 Git branches:-
-
-git branch // use to check branch
-git branch -M <new name> //rename branch
-git checkout <-branchName-> // use to switch branch
-git checkout -b <-branchName-> // use to create new branch
-git branch -d <-branchName-> //delete branch
+    git branch // use to check branch
+    git branch -M <new name> //rename branch
+    git checkout <-branchName-> // use to switch branch
+    git checkout -b <-branchName-> // use to create new branch
+    git branch -d <-branchName-> //delete branch
 
 git push origin feature1 // use to push on feature1 branch of github
 
 MERGING CODE:
-Way 1:
-    git diff <-branch name-> // find difference b/w two branch
-    git merge <-branch name-> // it merge other branch with current one
-Way 2:
-    PR:Pull Request tell others about you have pushed to a branch in a repository on github
+    Way 1:
+        git diff <-branch name-> // find difference b/w two branch
+        git merge <-branch name-> // it merge other branch with current one
+    Way 2:
+        PR:Pull Request tell others about you have pushed to a branch in a repository on github
 
 PULL Command
     git pull origin main //used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 
 Resolving Merge Conflict :
-An event that takes place when Git is unable to automatically resolve differences in code
-between two Commit.
+    An event that takes place when Git is unable to automatically resolve differences in code
+    between two Commit.
 
 
 Undoing changes:
-Case 1: staged changes //that changes which are added but not commited
-    git reset <-file name-> // for particular file
-    git reset //for whole file
+    Case 1: staged changes //that changes which are added but not commited
+        git reset <-file name-> // for particular file
+        git reset //for whole file
 
-case 2:commited changes(for 1 commit)
-    git reset HARD~1
+    case 2:commited changes(for 1 commit)
+        git reset HARD~1
 
-case 3:commited changes(for many Commit)
-    git reset <-commit hash->
-    git reset --hard<-commit hash->
+    case 3:commited changes(for many Commit)
+        git reset <-commit hash->
+        git reset --hard<-commit hash->
 
-Note:to get commit has use command "git log"
-git log// show all history of commit
+    Note:to get commit has use command "git log"
+    git log// show all history of commit
+
+    Fork:
+        A fork is a new repository that shares code and visibility settings with the original "upstream"
+        repository.
+        Fork is a rough copy.
+        
