@@ -87,3 +87,17 @@ An event that takes place when Git is unable to automatically resolve difference
 between two Commit.
 
 
+Undoing changes:
+Case 1: staged changes //that changes which are added but not commited
+    git reset <-file name-> // for particular file
+    git reset //for whole file
+
+case 2:commited changes(for 1 commit)
+    git reset HARD~1
+
+case 3:commited changes(for many Commit)
+    git reset <-commit hash->
+    git reset --hard<-commit hash->
+
+Note:to get commit has use command "git log"
+git log// show all history of commit
