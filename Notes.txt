@@ -69,3 +69,5 @@ git branch -M <new name> //rename branch
 git checkout <-branchName-> // use to switch branch
 git checkout -b <-branchName-> // use to create new branch
 git branch -d <-branchName-> //delete branch
+
+git push origin feature1 // use to push on feature1 branch of github
