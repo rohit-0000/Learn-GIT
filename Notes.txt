@@ -84,6 +84,6 @@ PULL Command
 
 Resolving Merge Conflict 
 An event that takes place when Git is unable to automatically resolve differences in code
-between two commits.
+between two .
 
 Test : now i am in new-branch
