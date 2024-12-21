@@ -86,5 +86,3 @@ Resolving Merge Conflict
 An event that takes place when Git is unable to automatically resolve differences in code
 between two .
 Test : now i am in new-branch
-between two Commit in branch.
-
