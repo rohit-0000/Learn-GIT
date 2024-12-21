@@ -78,3 +78,10 @@ Way 1:
     git merge <-branch name-> // it merge other branch with current one
 Way 2:
     PR:Pull Request tell others about you have pushed to a branch in a repository on github
+
+PULL Command
+    git pull origin main //used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+Resolving Merge Conflict 
+An event that takes place when Git is unable to automatically resolve differences in code
+between two commits.
