@@ -3,4 +3,4 @@ Learning GIT and github
 
 This is my first Git Repository
 
-i am in feature1
+i am in main now
